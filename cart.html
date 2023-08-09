@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shoppers</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section id="header">
+      <a href="#"><img src="img/logo2.png" class="logo" alt="" /></a>
+      <div>
+        <ul id="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="login.html">Account</a></li>
+          <li id="lg-bag">
+              ><i class="fa-solid fa-bag-shopping"></i
+            ></a>
+          </li>
+          <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+        </ul>
+      </div>
+      <div id="mobile">
+        <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+        <i id="bar" class="fas fa-outdent"></i>
+      </div>
+    </section>
+
+    <section id="page-header" class="about-header">
+      <h2>#let's_talk</h2>
+
+      <p>LEAVE A MESSAGE,We love to hear from you!</p>
+    </section>
+
+    <section id="cart" class="section-p1">
+      <table width="100%">
+        <thead>
+          <tr>
+            <td>Remove</td>
+            <td>Image</td>
+            <td>Product</td>
+            <td>Price</td>
+            <td>Quantity</td>
+            <td>Subtotal</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <a href="cart2.html"><i class="fa-solid fa-trash"></i></a>
+            </td>
+            <td>
+              <img src="img/products/f1.jpg" alt="" />
+            </td>
+            <td>Cartoon Astronaut T-shirts</td>
+            <td>$118.19</td>
+            <td><input type="number" value="1" /></td>
+            <td>$118.19</td>
+          </tr>
+          <!-- <tr>
+            <td>
+              <a href="#"><i class="fa-solid fa-trash"></i></a>
+            </td>
+            <td>
+              <img src="img/products/f2.jpg" alt="" />
+            </td>
+            <td>Cartoon Astronaut T-shirts</td>
+            <td>$118.19</td>
+            <td><input type="number" value="1" /></td>
+            <td>$118.19</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="#"><i class="fa-solid fa-trash"></i></a>
+            </td>
+            <td>
+              <img src="img/products/f3.jpg" alt="" />
+            </td>
+            <td>Cartoon Astronaut T-shirts</td>
+            <td>$118.19</td>
+            <td><input type="number" value="1" /></td>
+            <td>$118.19</td>
+          </tr> -->
+        </tbody>
+      </table>
+    </section>
+    <section id="cart-add" class="section-p1">
+      <div id="coupon">
+        <h3>Apply Coupon</h3>
+        <div>
+          <input type="text" placeholder="Enter your coupon" />
+          <button class="normal">Apply</button>
+          <div class="" <img src="img/banner/aj0.png"></div>
+        </div>
+      </div>
+      <div id="subtotal">
+        <h3>Cart Totals</h3>
+        <table>
+          <tr>
+            <td>cart subtotal</td>
+            <td>$ 118</td>
+          </tr>
+          <tr>
+            <td>Shipping</td>
+            <td>$ 9</td>
+          </tr>
+          <tr>
+            <td><strong>Total</strong></td>
+            <td><strong>$ 127</strong></td>
+          </tr>
+        </table>
+        <button class="normal"><a href="payment.html">Order Now</a></button>
+      </div>
+    </section>
+
+    <footer class="section-p1">
+      <div class="col">
+        <img class="logo" src="img/logo.png" alt="" />
+        <h4>Contact</h4>
+        <p>
+          <strong>Address:</strong> 562 wellington Road, Street 32, San
+          Francisco
+        </p>
+        <p><strong>Phone:</strong>+01 2222 635 /(+91) 01 2345 6789</p>
+        <p><strong>Hours:</strong> 10:00-18:00, Mon - Sat</p>
+        <div class="follow">
+          <h4>Follow Us</h4>
+          <div class="icon">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-telegram"></i>
+            <i class="fa-brands fa-pinterest"></i>
+            <i class="fa-brands fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <h4>About</h4>
+        <a href="#">About Us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contact Us</a>
+      </div>
+      <div class="col">
+        <h4>Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">view Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Trake My Order</a>
+        <a href="#">Help</a>
+      </div>
+
+      <div class="col install">
+        <h4>Install App</h4>
+        <p>From App Store or Google Play</p>
+        <div class="row">
+          <img src="img/pay/app.jpg" alt="" />
+          <img src="img/pay/play.jpg" alt="" />
+        </div>
+        <p>Secured Payment Gateways</p>
+        <img src="img/pay/pay.png" alt="" />
+      </div>
+
+      <div class="copyright">
+        <p>&copy; 2023, Denim-Hunt Clothing Store Shahpur DIST-Burhanpur</p>
+      </div>
+    </footer>
+
+    <script src="cart.js"></script>
+  </body>
+</html>
